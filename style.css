@@ -3,20 +3,21 @@ body {
     margin: 0;
 }
 
-section {
-    margin-bottom: 100px;
-}
-
 h1 {
     font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 span {
     color: orange;
 }
 
-section {
+.flexible {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -48,4 +49,36 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+
+}
+
+.experience {
+    background: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.orange {
+    color: #FF6133;
+}
+
+.exp {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+#full {
+    border-left: 7px solid tomato;
+}
+
+#baby {
+    border-left: 7px solid blue;
+}
+
+footer {
+    text-align: center;
 }
